@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+.introduction-name {
+  text-align: center;
+  color: #3c3c3c;
+  font-family: Lato;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+}
+hr {
+  width: 45px;
+  height: 4px;
+  background-color: #dddbdb;
+  border: none;
+  margin-top: 20px;
+}
+.introduction-description {
+  color: #3c3c3c;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  max-width: 561px;
+}
+.introduction-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.introduction-gallery__item {
+  display: inline-block;
+}
+.item__picture {
+  width: 269px;
+  height: 268px;
+}
+.picture_icons {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.icon {
+  z-index: 100;
+  background-color: #5ecbe6;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon img {
+  margin: 0 auto;
+}
+.john {
+  background-color: #19b5dc;
+}
+.alex {
+  background: url("../images/alex.png");
+}
+.elena {
+  background: url("../images/elena.png");
+}
+.lily {
+  background: url("../images/lily.png");
+}
+.item__name {
+  color: #282528;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Lato;
+  margin-top: 20px;
+}
+.item__profession {
+  font-weight: 300;
+  font-family: Lato;
+  line-height: 18px;
+  font-size: 14px;
+  color: #646464;
+}
