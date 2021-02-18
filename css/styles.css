@@ -81,7 +81,7 @@ hr {
 }
 .introduction-gallery__item:hover #hidden {
   display: block;
-  background-color: rgb(25, 181, 220, 0.5);
+  background-color: rgb(25, 181, 220, 0.3);
 }
 .alex {
   background: url("../images/alex.png");
