@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
-
+* {
+  transition: all 0.1s ease-in;
+}
 .introduction {
   display: flex;
   flex-direction: column;
@@ -41,10 +43,12 @@ hr {
 }
 .introduction-gallery__item {
   display: inline-block;
+  position: relative;
 }
 .item__picture {
   width: 269px;
   height: 268px;
+  position: relative;
 }
 .picture_icons {
   display: flex;
@@ -67,7 +71,17 @@ hr {
   margin: 0 auto;
 }
 .john {
-  background-color: #19b5dc;
+  background-color: rgb(25, 181, 220);
+}
+#hidden {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.introduction-gallery__item:hover #hidden {
+  display: block;
+  background-color: rgb(25, 181, 220, 0.5);
 }
 .alex {
   background: url("../images/alex.png");
